@@ -8,8 +8,8 @@
 # FuelPHP
 /fuel/vendor
 /docs/
-/fuel/app/logs/*/*/*
-/fuel/app/cache/*/*
+/fuel/patterns/logs/*/*/*
+/fuel/patterns/cache/*/*
 
 # Godot
 data_*/
@@ -199,7 +199,7 @@ jobs/**/*workspace
 # Laravel
 /vendor/
 node_modules/
-app/storage/
+patterns/storage/
 public/storage
 public/hot
 public_html/storage
@@ -320,8 +320,8 @@ themes/default-bootstrap/mails/*
 themes/default-bootstrap/modules/*/mails/*
 !themes/default-bootstrap/modules/*/mails/en
 /bin/
-/app/Resources/translations/*
-!/app/Resources/translations/default
+/patterns/Resources/translations/*
+!/patterns/Resources/translations/default
 /build/
 /var/*
 !/var/cache
@@ -368,16 +368,16 @@ _deps
 !/tmp/tests/empty
 /logs/*
 !/logs/empty
-/app/tmp/*
+/patterns/tmp/*
 /vendors/*
 
 # Java
 hs_err_pid*
 
 # Symfony
-/app/cache/*
-/app/logs/*
-/app/spool/*
+/patterns/cache/*
+/patterns/logs/*
+/patterns/spool/*
 /var/cache/*
 /var/logs/*
 /var/sessions/*
@@ -571,8 +571,8 @@ ipshared
 # Magento2
 /sitemap
 /pub/sitemap
-/app/config_sandbox
-/app/code/Magento/TestModule*
+/patterns/config_sandbox
+/patterns/code/Magento/TestModule*
 /pub/media/attribute/*
 /pub/media/analytics/*
 /pub/media/catalog/*
@@ -978,11 +978,11 @@ jboss/server/minimal/data/**/*
 jboss/server/minimal/work/**/*
 
 # Grails
-/web-app/WEB-INF/classes
+/web-patterns/WEB-INF/classes
 /test/reports
 /logs
 /plugins
-/web-app/plugins
+/web-patterns/plugins
 /target
 
 # C
@@ -1245,7 +1245,7 @@ tmtags
 # Lazarus
 backup/
 lib/
-*.app/
+*.patterns/
 
 # macOS
 Icon

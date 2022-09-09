@@ -1,0 +1,11 @@
+Strategy Pattern
+
+Define una familia de algoritmos encapsulados que pueden ser intercambiables,
+Se basa en desacoplar el algoritmo de quien finalmente lo usa.
+
+El ejemplo se basa en que el Pato tiene varios comportamientos,
+cada comportamiento esta encapsulado en una variable que es de un tipo de interfaz
+cada interfaz representa a una familia de comportamientos,
+al ir generando mas comportamientos de la interfaz podemos extender esta familia,
+al final al crear al Pato podemos hacer muchas combinaciones de Patos debido a que sus comportamientos
+pueden estan desacoplados y podemos elegir entre muchas impementaciones de estos comportamientos.
