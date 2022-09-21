@@ -1,0 +1,12 @@
+Patron Observable
+
+En el patron Observable, se necesitan por lo menos tres entidades
+El sujeto, que sera el  observado y cuando tenga un cambio, notificara a su lista de observadores
+El observador, el cual se subscribira a un objeto para observarlo
+El cliente, el cual hara las relaciones entre el sujeto y la lista de observadores.
+
+En este caso el observado en el Dollar, que cuando tenga un cambio en su valor, notificara
+a los observadores, los cuales son el Peso Mexicano, Peso Colombiano y el Peso Argentino, que
+al ser notificados sobre el cambio, imprimiran su tipo de cambio respecto al dolar
+
+La clave esta en hacer una relacion multi direccional con referencias
