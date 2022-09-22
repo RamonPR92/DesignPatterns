@@ -1,10 +1,9 @@
 package patterns.observerpattern;;
 
-public interface Subject<T> {
-
+public interface Subject {
     void addObserver(Observer observer);
     void removeObserver(Observer observer);
     void notifyAllObservers();
-    void setState(T value);
-    T getState();
+    Double getState();
+    void setState(Double value);
 }

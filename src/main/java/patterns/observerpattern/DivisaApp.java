@@ -4,7 +4,7 @@ public class DivisaApp {
 
     public static void main(String[] args) {
 
-        Subject<Double> dollar = new DollarSubject();
+        Subject dollar = new DollarSubject();
 
         Observer pesoMX = new MXPesoObserver();
         pesoMX.setSubject(dollar);

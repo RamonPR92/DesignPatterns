@@ -3,7 +3,7 @@ package patterns.observerpattern;
 import java.util.ArrayList;
 import java.util.List;
 
-public class DollarSubject implements Subject<Double> {
+public class DollarSubject implements Subject {
     private List<Observer> observers;
     private Double stateValue;
 

@@ -3,7 +3,7 @@ package patterns.observerpattern;
 public class ARGPesoObserver implements Observer {
 
     private Double exchangeValue;
-    private Subject<Double> subject;
+    private Subject subject;
 
     public ARGPesoObserver() {
         exchangeValue = 144.35;

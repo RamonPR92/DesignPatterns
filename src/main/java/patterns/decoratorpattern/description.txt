@@ -1,0 +1,7 @@
+Patron Decorator
+
+El patron decorator se basa en agregar comortamientos a un objeto individual de forma dinamica,
+es mas eficiente que la creacion de subclases.
+
+En el ejemplo vemos un arma base, que al irse agregando accesorios el arma se va volviendo mas poderosa con
+la potencia de fuego y la punteria

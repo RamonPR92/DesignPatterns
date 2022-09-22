@@ -3,7 +3,7 @@ package patterns.observerpattern;
 public class COLPesoObserver implements Observer {
 
     private Double exchangeValue;
-    private Subject<Double> subject;
+    private Subject subject;
 
     public COLPesoObserver() {
         exchangeValue = 4_407.0;

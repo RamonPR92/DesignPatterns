@@ -3,7 +3,7 @@ package patterns.observerpattern;
 public class MXPesoObserver implements Observer{
 
     private Double exchangeValue;
-    private Subject<Double> subject;
+    private Subject subject;
 
     public MXPesoObserver() {
         exchangeValue = 20.0;
