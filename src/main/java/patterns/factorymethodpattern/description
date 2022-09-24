@@ -1,0 +1,7 @@
+Patron Method Factory
+
+Permite crear objetos de un determinado tipo o familia.
+
+El ejemplo se basa en la fabricacion de obstaculos en este caso meteoritos de un videojuego,
+la fabrica solicita en su metodo el nivel del juego para poder calcular el tamanio, la velocidad,
+la posicion y la direccion.
