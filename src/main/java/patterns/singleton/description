@@ -1,0 +1,5 @@
+Patron Singleton
+
+Su objetivo es que solo pueda existir una unica instancia de ese objeto en toda la aplicacion
+
+En el ejemplo utilizamos una sala de chat en la que nos aseguramos que solo podamos crear una.
