@@ -1,0 +1,8 @@
+Abstract Factory Pattern
+
+Se basa en que una fabrica concreta puede o debe de generar objetos que esten relacionados entre si y hagan sentido entre ellos,
+es diferente al method factory ya que en vez de tener un solo metodo que crea, aqui se pueden tener varios metodos.
+
+El ejemplo se basa en un dialogo y un boton que son para una app, dos diferentes fabricas que cada una devuelve un boton y un
+dialogo pero cada fabrica solo devuelve botones y dialogos con tema blanco y la otra fabrica solo botones y dialogos negros,
+ya que no hace sentido mezclar los temas.
