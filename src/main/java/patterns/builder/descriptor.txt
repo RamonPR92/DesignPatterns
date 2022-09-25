@@ -1,0 +1,7 @@
+Patron Builder
+
+Te permite crear un objeto paso a paso, es recomendable cuando un construtor tiene muchos parametros
+
+El ejemlo usado es el de un Empleado
+
+
