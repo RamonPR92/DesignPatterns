@@ -1,0 +1,11 @@
+Adapter Pattern
+
+Tenemos una maquina de soldar que trabaja a 220 volts, y una fuente de poder de 340 volts, necesitamos un adaptador de voltaje
+de cualquier marca que le devuelva a la maquina los 220 volt que necesita por que si no se quema.
+
+ConnectorAdapter es nuetro adaptador generico que usaremos en la maquina y que nos ayuda a desacoplar la implementacion del adaptador
+SterenConnectoAdapter es la implementacion de ConnectorAdapter y este cuenta con una instancia de el recurso que hay que converir en
+este caso la fuente de poder.
+
+
+
