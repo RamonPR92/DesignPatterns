@@ -1,0 +1,11 @@
+Bridge
+
+Es una forma de separar una clase grande o monolitica, en clases cercanamente relacionadas y separar el arbol de herencia
+y que cada arbol de herencia sea dea desarrollado independientemente uno de otro.
+
+El puente se realiza mediante la composicion y en el nivel mas abstracto.
+
+En este ejemplo se ve como tenemos una abstraccion de un Control remoto, que tiene como componente o referencia un Dispositivo
+el Control tiene ciertas funcionalidades que acceden a funcionalidades del dispositivo.
+El control usara la herencia para generar Controles con nuevas caracteristicas y que ya sean instanciables tales como AdvanceRemoteControl
+El dispositivo usara las implementaciones para generar dispositivos tales como TV o Radio.
