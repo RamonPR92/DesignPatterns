@@ -1,0 +1,8 @@
+Proxy
+
+Un proxy es un mediador o una capa intermedia que nos puede ayudar a agregar seguridad como una base de datos o cualquier
+cosa que requiera de credenciales o cuando se requiere agregar algunas validaciones como un proxy de red,
+mantener la instancia o datos basicos de un objeto remoto localmente, hacer lazy loading de un objeto pesado
+
+En el ejemplo se muestra como una tarjeta de credito funciona como proxy para el dinero en efectivo, la tarjeta de credito es
+una representacion de dinero pero agrega una capa de seguridad que sera validad por el banco para acceder a hacer pagos
