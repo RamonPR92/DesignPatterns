@@ -1,0 +1,4 @@
+Facade
+
+Tenemos un carro y necesitamos iniciarlo y en algun momento apagarlo, solo que para esto hay demasiadas cosas que deben de suceder
+por medio de la fachada solo tenemos acceso o conocemos solo lo que requerimos y queda oculto aquello que no nos interesa saber
